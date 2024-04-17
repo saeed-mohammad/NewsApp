@@ -13,6 +13,10 @@
 		80FF0EA32BCF958E009A1671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FF0EA12BCF958E009A1671 /* Main.storyboard */; };
 		80FF0EA52BCF9595009A1671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FF0EA42BCF9595009A1671 /* Assets.xcassets */; };
 		80FF0EA82BCF9595009A1671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FF0EA62BCF9595009A1671 /* LaunchScreen.storyboard */; };
+		80FF0EB02BCFA591009A1671 /* NewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FF0EAF2BCFA591009A1671 /* NewsResponse.swift */; };
+		80FF0EB32BCFE5C3009A1671 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FF0EB12BCFE5C3009A1671 /* CustomCell.swift */; };
+		80FF0EB42BCFE5C3009A1671 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80FF0EB22BCFE5C3009A1671 /* CustomCell.xib */; };
+		80FF0EB72BCFF2AB009A1671 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FF0EB62BCFF2AB009A1671 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		80FF0EA42BCF9595009A1671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80FF0EA72BCF9595009A1671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80FF0EA92BCF9595009A1671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FF0EAF2BCFA591009A1671 /* NewsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponse.swift; sourceTree = "<group>"; };
+		80FF0EB12BCFE5C3009A1671 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		80FF0EB22BCFE5C3009A1671 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		80FF0EB62BCFF2AB009A1671 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +67,24 @@
 				80FF0E9B2BCF958E009A1671 /* AppDelegate.swift */,
 				80FF0E9D2BCF958E009A1671 /* SceneDelegate.swift */,
 				80FF0E9F2BCF958E009A1671 /* ViewController.swift */,
+				80FF0EB62BCFF2AB009A1671 /* WebViewController.swift */,
+				80FF0EB52BCFE5D0009A1671 /* CustomCell */,
+				80FF0EAF2BCFA591009A1671 /* NewsResponse.swift */,
 				80FF0EA12BCF958E009A1671 /* Main.storyboard */,
 				80FF0EA42BCF9595009A1671 /* Assets.xcassets */,
 				80FF0EA62BCF9595009A1671 /* LaunchScreen.storyboard */,
 				80FF0EA92BCF9595009A1671 /* Info.plist */,
 			);
 			path = News;
+			sourceTree = "<group>";
+		};
+		80FF0EB52BCFE5D0009A1671 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				80FF0EB12BCFE5C3009A1671 /* CustomCell.swift */,
+				80FF0EB22BCFE5C3009A1671 /* CustomCell.xib */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +147,7 @@
 			files = (
 				80FF0EA82BCF9595009A1671 /* LaunchScreen.storyboard in Resources */,
 				80FF0EA52BCF9595009A1671 /* Assets.xcassets in Resources */,
+				80FF0EB42BCFE5C3009A1671 /* CustomCell.xib in Resources */,
 				80FF0EA32BCF958E009A1671 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				80FF0EA02BCF958E009A1671 /* ViewController.swift in Sources */,
+				80FF0EB72BCFF2AB009A1671 /* WebViewController.swift in Sources */,
+				80FF0EB02BCFA591009A1671 /* NewsResponse.swift in Sources */,
+				80FF0EB32BCFE5C3009A1671 /* CustomCell.swift in Sources */,
 				80FF0E9C2BCF958E009A1671 /* AppDelegate.swift in Sources */,
 				80FF0E9E2BCF958E009A1671 /* SceneDelegate.swift in Sources */,
 			);
